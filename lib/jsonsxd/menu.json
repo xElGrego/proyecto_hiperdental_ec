@@ -1,0 +1,23 @@
+{
+    "nombreApp" : "HIPERDENTAL_EC",
+    "rutas" : [
+        {
+            "ruta" : "inicio"
+            
+        },
+        {
+            "ruta" : "homepage"
+            
+        },
+        {
+            "ruta" : "login"
+            
+        },
+        {
+            "ruta" : "pagina4"
+        },
+        {
+            "ruta" : "loginnuevo"
+        }
+    ]
+}

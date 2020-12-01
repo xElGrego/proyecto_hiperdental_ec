@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "211167499773",
+    "firebase_url": "https://hiperdental-e2f71.firebaseio.com",
+    "project_id": "hiperdental-e2f71",
+    "storage_bucket": "hiperdental-e2f71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211167499773:android:c8f76f7241b80f2f607594",
+        "android_client_info": {
+          "package_name": "com.example.hiperdental_ec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211167499773-9mu1jh8r14tpuntoi3bdomq0a7ub57pf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hiperdental_ec",
+            "certificate_hash": "72a10b715971d08a50ddfb27ffa61c186cc068fe"
+          }
+        },
+        {
+          "client_id": "211167499773-2v24ap3sjnf5ci4ihfkbmmha3uhanuee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIL1vTUK64kfNZa6aPGNafBWWgce1Uelw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211167499773-2v24ap3sjnf5ci4ihfkbmmha3uhanuee.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
