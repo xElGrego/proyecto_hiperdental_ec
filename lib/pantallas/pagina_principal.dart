@@ -1,12 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:hiperdental_ec/libs_xd/auth.dart';
+import 'package:get/get_state_manager/src/simple/get_view.dart';
+import 'package:hiperdental_ec/controlers/auth_controler.dart';
 import 'package:hiperdental_ec/pantallas/widgets_personalizados/boton_circular.dart';
 import 'package:hiperdental_ec/pantallas/widgets_personalizados/cupertino_botones.dart';
 import 'package:hiperdental_ec/pantallas/widgets_personalizados/cupertino_textfield.dart';
 import 'package:hiperdental_ec/utils/colores.dart';
 
-class LoginForm extends StatelessWidget {
+class LoginForm extends GetWidget<AuthControler> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -58,9 +59,9 @@ class LoginForm extends StatelessWidget {
                 BotonCircular(
                   colordefondo: Colors.red,
                   rutaicono: 'assets/google.png',
-                  onPressed: () async {
+                 onPressed: ()  {
                     print("Google");
-                    await Auth.instancia.goglee(context);
+                    controller.google_signIn();
                     print('SIIIIIIIIIII');
                   },
                 ),
@@ -99,3 +100,5 @@ class LoginForm extends StatelessWidget {
     );
   }
 }
+
+

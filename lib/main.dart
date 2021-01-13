@@ -1,6 +1,7 @@
 //import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:hiperdental_ec/src/rutas/rutas.dart';
 import 'pantallas/inicio.dart';
 
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
           );
         }
         if (snapshot.connectionState == ConnectionState.done) {
-          return MaterialApp(
+          return GetMaterialApp(
             debugShowCheckedModeBanner: false,
             title: 'HiperDental',
             home: SplashScreen(),
@@ -50,11 +51,7 @@ class MyApp extends StatelessWidget {
             ),
           );
         }
-        return Container(
-          child: Center(
-            child: Text("XDXD"),
-          ),
-        );
+        return Container();
       },
     );
   }

@@ -15,7 +15,6 @@ class SplashScreen extends StatelessWidget {
               Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(80.0),
-                  
                 ),
                 child: Image.asset(
                   'assets/home.jpg',
