@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:hiperdental_ec/utils/colores.dart';
+import 'package:hiperdental_ec/utils/constant.dart';
 
 class BotonPersonalizado extends StatelessWidget {
   final VoidCallback funcionboton;
@@ -23,7 +23,7 @@ class BotonPersonalizado extends StatelessWidget {
       child: Container(
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(30.0),
-          color: this.colorfondoboton ?? Colores.colorprimario,
+          color: this.colorfondoboton ?? contentTextColor,
         ),
         padding: EdgeInsets.symmetric(vertical: 12, horizontal: 18),
         child: Text(

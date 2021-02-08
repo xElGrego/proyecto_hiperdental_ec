@@ -2,8 +2,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:hiperdental_ec/src/rutas/rutas.dart';
-import 'pantallas/inicio.dart';
+import 'pantallas/splahs.dart';
 
 void main() async {
   //Para inicializar Firebase
@@ -34,8 +33,11 @@ class MyApp extends StatelessWidget {
             debugShowCheckedModeBanner: false,
             title: 'HiperDental',
             home: SplashScreen(),
-            routes: todaslasrutas(),
+            color: Colors.teal[200],
             theme: ThemeData(
+              accentColor: Colors.teal[200],
+              backgroundColor: Colors.teal[200],
+              primaryColor: Colors.teal[200],
               textTheme: TextTheme(
                 headline1: TextStyle(
                   fontSize: 36.0,
